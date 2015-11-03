@@ -1,0 +1,120 @@
+
+/*.addh{*/
+    /*font-family: 'Open Sans Condensed', arial, sans;*/
+   /*width: 60%;*/
+    /*/!*width: 500px;*!/*/
+    /*padding: 20px;*/
+    /*background: #FFFFFF;*/
+    /*margin: 50px auto;*/
+    /*box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);*/
+    /*-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);*/
+    /*-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);*/
+
+/*}*/
+/*.addh h2{*/
+    /*background: #4D4D4D;*/
+    /*text-transform: uppercase;*/
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+    /*color: #797979;*/
+    /*font-size: 18px;*/
+    /*font-weight: 100;*/
+    /*padding: 20px;*/
+    /*margin: -30px -30px 30px -30px;*/
+/*}*/
+/*.addh input[type="text"],*/
+/*.addh input[type="date"],*/
+/*.addh input[type="datetime"],*/
+/*.addh input[type="email"],*/
+/*.addh input[type="number"],*/
+/*.addh input[type="search"],*/
+/*.addh input[type="time"],*/
+/*.addh input[type="url"],*/
+/*.addh input[type="password"],*/
+/*.addh textarea,*/
+/*.addh select*/
+/*{*/
+    /*box-sizing: border-box;*/
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*outline: none;*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*padding: 7px;*/
+    /*border: none;*/
+    /*border-bottom: 1px solid #ddd;*/
+    /*background: transparent;*/
+    /*margin-bottom: 10px;*/
+    /*font: 16px Arial, Helvetica, sans-serif;*/
+    /*height: 45px;*/
+/*}*/
+/*.addh textarea{*/
+    /*resize:none;*/
+    /*overflow: hidden;*/
+/*}*/
+/*.addh input[type="button"],*/
+/*.addh input[type="submit"]{*/
+    /*-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;*/
+    /*-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;*/
+    /*box-shadow: inset 0px 1px 0px 0px #45D6D6;*/
+    /*background-color: #2CBBBB;*/
+    /*border: 1px solid #27A0A0;*/
+    /*display: inline-block;*/
+    /*cursor: pointer;*/
+    /*color: #FFFFFF;*/
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+    /*font-size: 14px;*/
+    /*padding: 8px 18px;*/
+    /*text-decoration: none;*/
+    /*text-transform: uppercase;*/
+/*}*/
+/*.addh input[type="button"]:hover,*/
+/*.addh input[type="submit"]:hover {*/
+    /*background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);*/
+    /*background-color:#34CACA;*/
+/*}*/
+
+input[type=radio] {
+    display:none;
+    margin:10px;
+}
+
+input[type=radio] + label {
+    display:inline-block;
+    margin:-2px;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #313A3D;
+    /*background-image: -moz-linear-gradient(top,#fff,#313A3D);*/
+    /*background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#313A3D));*/
+    /*background-image: -webkit-linear-gradient(top,#fff,#313A3D);*/
+    /*background-image: -o-linear-gradient(top,#fff,#313A3D);*/
+    /*background-image: linear-gradient(to bottom,#fff,#313A3D);*/
+    background-repeat: repeat-x;
+    /*border: 1px solid #ccc;*/
+    /*border-color: #313A3D #313A3D #bfbfbf;*/
+    /*border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);*/
+    /*border-bottom-color: #b3b3b3;*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);*/
+    /*-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);*/
+    /*-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);*/
+    /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);*/
+}
+
+input[type=radio]:checked + label {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    background-color:#FD9638;
+    color:#313A3D ;
+}

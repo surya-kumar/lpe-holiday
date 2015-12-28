@@ -105,7 +105,7 @@ public class client {
     {
         try
         {
-            String url="http://ekl-omniscient-1.stage.ch.flipkart.com:27750/holidays";
+            String url="http://10.47.1.55/holidays";
 
 //            client c=new client();
             String sResponse=UrlGet(url);
@@ -124,12 +124,20 @@ public class client {
     {
         try
         {
-            String url="http://ekl-omniscient-1.stage.ch.flipkart.com:27750/holidays";
+            String url="http://10.47.1.55/holidays";
 
 
             String sResponse=UrlPost(url, json);
-            Thread thread = new Thread(new MyRunnable());
+            String url1="http://10.33.65.0:8080/compute/v1/apps/omniscient/instanceGroups/omniscient-app-grp1/instances?view=summary";
+            Thread thread = new Thread(new MyRunnable(url1));
             thread.start();
+            String url2="http://10.33.65.0:8080/compute/v1/apps/omniscient-transact/instanceGroups/omniscient-transact-group1/instances?view=summary";
+            Thread thread2 = new Thread(new MyRunnable(url2));
+            thread2.start();
+            String url3="http://10.33.65.0:8080/compute/v1/apps/omniscient-nup/instanceGroups/omniscient-nup-grp1/instances?view=summary";
+            Thread thread3 = new Thread(new MyRunnable(url3));
+            thread3.start();
+
             return sResponse;
 
         }

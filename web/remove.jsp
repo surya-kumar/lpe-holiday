@@ -8,6 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html >
 <head>
+  <style>
+
+
+  </style>
   <meta charset="UTF-8">
   <meta name="google" value="notranslate">
 
@@ -50,10 +54,8 @@
 <body>
 <p><font size="2%" color="#a52a2a"><b>This feature is not functional yet. Please raise a request to Logistics-promise-oncall@flipkart.com </b></font></p>
 <section id="hire">
-
   <h1>Contact Me</h1>
-
-  <form action="mail1" method="post" enctype="text/plain" >
+  <form action="#" method="post" enctype="text/plain" >
     <div class="field name-box">
       <input type="text" id="name" placeholder="Who Are You?"/>
       <label for="name">Name</label>
@@ -68,7 +70,7 @@
     </div>
 
     <div class="field msg-box">
-      <textarea id="msg" rows="4" placeholder="Your message goes here..."/></textarea>
+      <textarea id="msg" class="comments" placeholder="Your message goes here..."/></textarea>
       <label for="msg">Msg</label>
       <span class="ss-icon">check</span>
     </div>
@@ -80,6 +82,11 @@
 
 
 <script>
+
+
+
+
+
   $('textarea').blur(function () {
     $('#hire textarea').each(function () {
       $this = $(this);

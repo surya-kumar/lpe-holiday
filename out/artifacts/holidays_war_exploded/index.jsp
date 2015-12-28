@@ -18,11 +18,11 @@
 
 <body id="bod" >
 
-<div id="head-home">
+<%--<div id="head-home">--%>
 
-  <p ><font color="white" ><b>Manage Holidays</b></font></p>
+  <%--<p ><font color="white" ><b>Manage Holidays</b></font></p>--%>
 
-</div>
+<%--</div>--%>
 
 
 
@@ -37,24 +37,26 @@
 </div>
 
 
-<div id="foot-home">
+<%--<div id="foot-home">--%>
 
-  <p id="font-head"><font color="white" size="2%"><b>Copyright 2015 © All Rights Reserved | Powered By www.flipkart.com</b></font></p>
+  <%--<p id="font-head"><font color="white" size="2%"><b>Copyright 2015 © All Rights Reserved | Powered By www.flipkart.com</b></font></p>--%>
 
-</div>
+<%--</div>--%>
 
 
 
 <div id="link-all">
   <ul id="mainlink" >
 
-    <li><a href="#" class="link0" target="content" onClick="document.getElementById('frame').parentNode.style.display='none'"><span><b> Home</b></span></a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+    <%--<li><a href="holiday_home.jsp" class="link0" target="content" onClick="document.getElementById('frame').parentNode.style.display=''"><span><b> Home</b></span></a>&nbsp;&nbsp;&nbsp;&nbsp;</li>--%>
 
     <li><a href="add.jsp" class="link1" target="content" onClick="document.getElementById('frame').parentNode.style.display=''"><span><b> Add Holiday</b></span></a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 
     <li><a href="remove.jsp" class="link2" target="content" onClick="document.getElementById('frame').parentNode.style.display=''"><span><b>Remove Holiday</b></span></a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 
-    <li><a href="/Servlet" class="link3"  target="content"  onClick="document.getElementById('frame').parentNode.style.display=''"><span><b>View Holiday</b></span></a>
+    <li><a href="/Servlet" class="link3"  target="content"  onClick="document.getElementById('frame').parentNode.style.display=''"><span><b>View Holiday</b></span></a> &nbsp;&nbsp;&nbsp;&nbsp;</li>
+
+    <li><a href="holiday_home.jsp" class="link0" target="content" onClick="document.getElementById('frame').parentNode.style.display=''"><span><b> Guidelines</b></span></a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 
 
 
@@ -65,13 +67,18 @@
       <!--<li><a href="/holiday/search" class="link2" target="content" onClick="document.getElementById('frame').parentNode.style.display=''" ><span>View All</span></a>&nbsp;&nbsp;&nbsp;&nbsp;</li>-->
       <!--</ul>-->
 
-    </li>
+
   </ul>
 
 
 </div>
 
 
+<div id="footer-frame">
+
+
+
+</div>
 </body>
 
 

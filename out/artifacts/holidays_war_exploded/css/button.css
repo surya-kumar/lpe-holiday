@@ -1,0 +1,18 @@
+
+#menu{
+
+position: absolute;
+background-color:black ;
+top: 25%;
+left: 5%;
+    right: 0px;
+width: 80%;
+height: 60%;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+border: none;
+
+    text-align: center;
+
+}

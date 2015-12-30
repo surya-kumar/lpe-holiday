@@ -11,8 +11,40 @@
     <title></title>
 </head>
 <body>
+
+
+  <u><b>Important Points to remember while adding Holidays at LPE</b></u>
+<table border="1">
+  <tr>
+    <td> There are 2 kinds of holidays.<br/><br/>
+
+      1. Destination Holidays (Applicable for Delivery Hubs)<br/>
+      2. Source Holidays (Applicable for facilities)<br/><br/>
+
+      Here type takes values national/state/city/facility<br/><br/>
+
+      national    - Nation wide holiday for all destinations<br/>
+      state/city  - State/City wise. It gets the State/City information based on the pincode which is passed.<br/>
+      facility    - Source Holidays. Applicable for facilities. ( national holidays are only considered for destinations)<br/>
+      <br/>
+    </td>
+
+
+  </tr>
+
+
+</table>
+<br/>
+  <br/>
+
+
+
+<table border="1">
+  <tr>
+    <td>
 <ul>
-  1. To add New Holidays Click on Add Holiday<hr/>
+ <b> Add Holidays</b>
+  <hr/>
 
   <li> Enter Comma (,) separated 6 digit pincodes if there are more than one</li>
   <li> Enter the reason for a Holiday</li>
@@ -20,24 +52,12 @@
   <li> Select the Type (State, National, City, Facility )</li>
   <li> Click on Add holiday</li>
 
-
-
 </ul>
 
-<ul>
-  2. To Remove Holidays Raise a request to logistics-promise-oncall@flipkart.com as the page is not functional yet<hr/>
+    </td>
+  </tr>
+</table>
 
-</ul>
-
-
-<ul>
-  3. To view Holidays Click on View Holiday<hr/>
-
-
-
-
-
-</ul>
 
 
 

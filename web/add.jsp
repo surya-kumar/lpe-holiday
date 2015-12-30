@@ -58,7 +58,7 @@
   <h1>Add Holiday</h1>
 
   <div class="addh">
-    <form action="/Servlet" method="post">
+    <form action="/holidays/viewServlet" method="post">
 
       <div class="field name-box">
         <input type="text"  name="pincode" id="Pincode"  onkeypress="return isNumber(event)" placeholder="Enter 6 digit , seperated pincodes"/>

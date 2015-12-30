@@ -105,7 +105,7 @@ public class client {
     {
         try
         {
-            String url="http://10.47.1.55/holidays";
+            String url="http://10.47.1.61/holidays";
 
 //            client c=new client();
             String sResponse=UrlGet(url);
@@ -124,7 +124,7 @@ public class client {
     {
         try
         {
-            String url="http://10.47.1.55/holidays";
+            String url="http://10.47.1.61/holidays";
 
 
             String sResponse=UrlPost(url, json);

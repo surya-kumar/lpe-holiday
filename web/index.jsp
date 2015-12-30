@@ -54,7 +54,7 @@
 
     <li><a href="remove.jsp" class="link2" target="content" onClick="document.getElementById('frame').parentNode.style.display=''"><span><b>Remove Holiday</b></span></a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 
-    <li><a href="/Servlet" class="link3"  target="content"  onClick="document.getElementById('frame').parentNode.style.display=''"><span><b>View Holiday</b></span></a> &nbsp;&nbsp;&nbsp;&nbsp;</li>
+    <li><a href="/holidays/viewServlet" class="link3"  target="content"  onClick="document.getElementById('frame').parentNode.style.display=''"><span><b>View Holiday</b></span></a> &nbsp;&nbsp;&nbsp;&nbsp;</li>
 
     <li><a href="holiday_home.jsp" class="link0" target="content" onClick="document.getElementById('frame').parentNode.style.display=''"><span><b> Guidelines</b></span></a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 

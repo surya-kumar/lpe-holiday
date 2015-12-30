@@ -28,6 +28,13 @@
   <script src="assets/scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
   <script src="assets/scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
   <script src="assets/scripts/common.js" type="text/javascript"></script>
+
+
+  <style type="text/css">
+    .wrapper{
+      background: url(123_wrp.jpg) no-repeat;
+    }
+  </style>
 </head>
 
 
